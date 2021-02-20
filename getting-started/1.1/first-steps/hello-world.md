@@ -84,10 +84,10 @@ In this step, you create a zero-value transaction that contains a "Hello world" 
             return iota.sendTrytes(trytes, depth, minimumWeightMagnitude);
         })
         .then(bundle => {
-            console.log(bundle[0].hash)
+            console.log(bundle[0].hash);
         })
         .catch(err => {
-            console.error(err)
+            console.error(err);
         });
     ```
 
